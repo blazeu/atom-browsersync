@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "atom-browsersync:toggle"
+            },
+            {
+              "label": "Open in Browser",
+              "command": "atom-browsersync:open-in-browser"
             }
           ]
         }
