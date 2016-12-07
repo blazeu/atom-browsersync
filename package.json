@@ -1,9 +1,13 @@
 {
   "name": "atom-browsersync",
   "main": "./lib/main",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "An Atom package to start Browsersync from the editor",
-  "keywords": ["browsersync", "livereload", "sync"],
+  "keywords": [
+    "browsersync",
+    "livereload",
+    "sync"
+  ],
   "repository": "blazeu/atom-browsersync",
   "license": "MIT",
   "author": "blazeu <neversleepman@tfwno.gf>",
