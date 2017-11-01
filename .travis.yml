@@ -1,0 +1,18 @@
+language: python
+python:
+  - "3.6"
+
+cache:
+  pip: true
+  directories:
+    - "node_modules"
+
+install:
+  - pip install --pre -U coala-bears
+  - |
+    npm install -g "eslint@~3" "standard@~10" \
+    "remark@~8" "remark-lint@~6" "remark-cli@~4"
+  - npm install
+
+script:
+  - npm test -- --ci -V
