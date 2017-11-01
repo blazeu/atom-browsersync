@@ -1,0 +1,23 @@
+[all]
+ignore = package.json, node_modules/**
+
+[all.javascript]
+bears = JSStandardBear
+files = **.js
+
+[all.json]
+bears = JSONFormatBear
+files = **.json
+indent_size = 2
+
+[markdown]
+bears = MarkdownBear
+files = *.md
+config_file = .remarkrc
+
+[yml]
+bears = YAMLLintBear
+files = *.yml
+
+[gitcommit]
+bears = GitCommitBear

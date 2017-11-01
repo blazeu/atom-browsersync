@@ -8,6 +8,9 @@
     "livereload",
     "sync"
   ],
+  "scripts": {
+    "test": "coala"
+  },
   "repository": "blazeu/atom-browsersync",
   "license": "MIT",
   "author": "blazeu <neversleepman@tfwno.gf>",
